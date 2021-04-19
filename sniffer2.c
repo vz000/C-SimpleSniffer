@@ -385,6 +385,6 @@ int main() {
 	system(command);
 	mostrar(direcc);
 	mostrarConver(convers);
-	printf("\n Analisis terminado. \n Registros en: sniffer.txt \n");
+	printf("\n Analisis terminado. \n Registros en: snifferIPdatagramas.txt \n");
 	return 0;
 }
