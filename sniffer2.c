@@ -324,7 +324,11 @@ void etherHeader(unsigned char *trama, int len) {
 			direcc = alta_inicio(direcc,dest,1); //recibe
 			convers = alta_conv(convers,orig,dest);
 			seg++;
+		} else {
+			seg++;	
 		}
+	} else {
+		seg++;	
 	}
 }
 
