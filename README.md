@@ -1,1 +1,2 @@
-# sniffer2
+# Sniffer
+Simple sniffer.
